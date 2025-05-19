@@ -43,18 +43,14 @@
     <!-- Videos -->
     <div class="mt-12">
       <div class="text-gray-900 dark:text-white text-xl font-bold mb-4">Videos</div>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-3 transition-colors duration-300">
-          <iframe class="rounded-lg w-full aspect-video" src="https://www.youtube.com/embed/VIDEO_ID1" allowfullscreen></iframe>
-          <div class="text-gray-700 dark:text-gray-200 text-sm mt-2">콜로소 프롬프트 강의(2024.2)</div>
+          <iframe class="rounded-lg w-full aspect-video" src="https://www.youtube.com/embed/3Ah0xXJMHJw" allowfullscreen></iframe>
+          <div class="text-gray-700 dark:text-gray-200 text-sm mt-2">유튜브 영상 1</div>
         </div>
         <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-3 transition-colors duration-300">
-          <iframe class="rounded-lg w-full aspect-video" src="https://www.youtube.com/embed/VIDEO_ID2" allowfullscreen></iframe>
-          <div class="text-gray-700 dark:text-gray-200 text-sm mt-2">MBC 다큐멘터리 출연분(2023.10)</div>
-        </div>
-        <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-3 transition-colors duration-300">
-          <iframe class="rounded-lg w-full aspect-video" src="https://www.youtube.com/embed/VIDEO_ID3" allowfullscreen></iframe>
-          <div class="text-gray-700 dark:text-gray-200 text-sm mt-2">온트리TV 출연분(2023.7)</div>
+          <iframe class="rounded-lg w-full aspect-video" src="https://www.youtube.com/embed/cCx4I4Fk5FE" allowfullscreen></iframe>
+          <div class="text-gray-700 dark:text-gray-200 text-sm mt-2">유튜브 영상 2</div>
         </div>
       </div>
     </div>
