@@ -13,7 +13,7 @@
   </script>
 </head>
 <body class="bg-blue-100 dark:bg-blue-800 min-h-screen flex flex-col items-center justify-center transition-colors duration-300">
-  <div class="bg-white dark:bg-gray-900 rounded-3xl shadow-xl p-10 max-w-4xl w-full transition-colors duration-300">
+  <div id="about" class="bg-white dark:bg-gray-900 rounded-3xl shadow-xl p-10 max-w-4xl w-full transition-colors duration-300">
     <!-- 상단 로고/이름 -->
     <div class="flex justify-between items-center mb-8">
       <div class="flex items-center space-x-2">
@@ -21,10 +21,10 @@
         <span class="text-gray-900 dark:text-white font-semibold text-lg">Hong Gildong</span>
       </div>
       <div class="space-x-6 text-gray-500 dark:text-gray-400 text-sm">
-        <a href="#" class="hover:text-blue-700 dark:hover:text-white"><i class="fas fa-info-circle"></i> 소개</a>
-        <a href="#" class="hover:text-blue-700 dark:hover:text-white"><i class="fas fa-history"></i> 약력</a>
-        <a href="#" class="hover:text-blue-700 dark:hover:text-white"><i class="fas fa-project-diagram"></i> 프로젝트</a>
-        <a href="#" class="hover:text-blue-700 dark:hover:text-white"><i class="fas fa-envelope"></i> 연락</a>
+        <a href="#about" class="hover:text-blue-700 dark:hover:text-white"><i class="fas fa-info-circle"></i> 소개</a>
+        <a href="#careers" class="hover:text-blue-700 dark:hover:text-white"><i class="fas fa-history"></i> 약력</a>
+        <a href="#projects" class="hover:text-blue-700 dark:hover:text-white"><i class="fas fa-project-diagram"></i> 프로젝트</a>
+        <a href="#contact" class="hover:text-blue-700 dark:hover:text-white"><i class="fas fa-envelope"></i> 연락</a>
       </div>
     </div>
     <!-- 프로필/이름/직함 -->
@@ -95,7 +95,7 @@
       </div>
     </div>
     <!-- Projects Section -->
-    <div class="mt-16">
+    <div id="projects" class="mt-16">
       <div class="text-gray-900 dark:text-white text-xl font-bold mb-4">Projects</div>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
         <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 flex flex-col items-center">
@@ -141,7 +141,7 @@
       </div>
     </div>
     <!-- Careers & Education Section -->
-    <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-10">
+    <div id="careers" class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-10">
       <!-- Careers -->
       <div>
         <div class="text-gray-900 dark:text-white text-lg font-bold mb-4">Careers</div>
@@ -183,19 +183,19 @@
       </div>
     </div>
     <!-- Contacts Section -->
-    <div class="mt-16 mb-10">
+    <div id="contact" class="mt-16 mb-10">
       <div class="text-gray-900 dark:text-white text-xl font-bold mb-4">Contact</div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- Contact Form -->
-        <form class="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 flex flex-col space-y-4">
+        <form class="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 flex flex-col space-y-4" action="send_mail.php" method="POST">
           <label class="text-gray-900 dark:text-white font-semibold">제목
-            <input type="text" class="mt-1 w-full rounded border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white p-2" placeholder="제목을 입력하세요">
+            <input type="text" name="subject" class="mt-1 w-full rounded border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white p-2" placeholder="제목을 입력하세요" required>
           </label>
           <label class="text-gray-900 dark:text-white font-semibold">이메일
-            <input type="email" class="mt-1 w-full rounded border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white p-2" placeholder="your@email.com">
+            <input type="email" name="email" class="mt-1 w-full rounded border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white p-2" placeholder="your@email.com" required>
           </label>
           <label class="text-gray-900 dark:text-white font-semibold">내용
-            <textarea class="mt-1 w-full rounded border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white p-2" rows="4" placeholder="문의 내용을 입력하세요"></textarea>
+            <textarea name="message" class="mt-1 w-full rounded border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white p-2" rows="4" placeholder="문의 내용을 입력하세요" required></textarea>
           </label>
           <button type="submit" class="bg-blue-600 text-white rounded px-4 py-2 font-bold hover:bg-blue-700">보내기</button>
         </form>
@@ -231,5 +231,27 @@
       document.documentElement.classList.toggle('dark');
     });
   </script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+  <?php if(isset($_GET['success'])): ?>
+  <script>
+    alert('메일이 성공적으로 전송되었습니다.');
+    if (window.history.replaceState) {
+      const url = window.location.origin + window.location.pathname;
+      window.history.replaceState({}, document.title, url);
+    }
+  </script>
+  <?php elseif(isset($_GET['error'])): ?>
+  <script>
+    alert('메일 전송에 실패했습니다. 다시 시도해 주세요.');
+    if (window.history.replaceState) {
+      const url = window.location.origin + window.location.pathname;
+      window.history.replaceState({}, document.title, url);
+    }
+  </script>
+  <?php endif; ?>
 </body>
 </html>
