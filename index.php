@@ -18,7 +18,7 @@
     <div class="flex justify-between items-center mb-8">
       <div class="flex items-center space-x-2">
         <span class="bg-blue-200 w-6 h-6 inline-block rounded-full"></span>
-        <span class="text-gray-900 dark:text-white font-semibold text-lg">Hong Gildong</span>
+        <span class="text-gray-900 dark:text-white font-semibold text-lg">Kwon soonchul</span>
       </div>
       <div class="space-x-6 text-gray-500 dark:text-gray-400 text-sm">
         <a href="#about" class="hover:text-blue-700 dark:hover:text-white"><i class="fas fa-info-circle"></i> 소개</a>
@@ -31,15 +31,15 @@
     <div class="flex items-center space-x-10">
       <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="프로필" class="w-48 h-48 rounded-full border-8 border-gray-200 dark:border-gray-800 shadow-lg">
       <div>
-        <div class="text-blue-600 dark:text-blue-400 font-bold text-xl mb-1">의적</div>
-        <div class="text-gray-900 dark:text-white font-extrabold text-4xl mb-2">Hong Gildong</div>
-        <div class="text-gray-700 dark:text-gray-200 text-lg mb-2">홍길동 · 洪吉童</div>
-        <div class="text-gray-400 text-xs mb-4">조선에 거주</div>
+        <div class="text-blue-600 dark:text-blue-400 font-bold text-xl mb-1">학생</div>
+        <div class="text-gray-900 dark:text-white font-extrabold text-4xl mb-2">Kwon soonchul</div>
+        <div class="text-gray-700 dark:text-gray-200 text-lg mb-2">권순철 · 洪吉童</div>
+        <div class="text-gray-400 text-xs mb-4">동탄 거주</div>
         <div class="flex space-x-3 mt-2">
           <a href="#" class="bg-yellow-400 rounded-full p-2"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/kakaotalk.svg" class="w-5 h-5"></a>
           <a href="#" class="bg-blue-600 rounded-full p-2"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" class="w-5 h-5"></a>
           <a href="#" class="bg-blue-500 rounded-full p-2"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" class="w-5 h-5"></a>
-          <a href="#" class="bg-pink-500 rounded-full p-2"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" class="w-5 h-5"></a>
+          <a href="https://www.instagram.com/soonchul12" class="bg-pink-500 rounded-full p-2"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" class="w-5 h-5"></a>
           <a href="#" class="bg-black rounded-full p-2"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" class="w-5 h-5"></a>
         </div>
       </div>
