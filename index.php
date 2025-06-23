@@ -40,7 +40,7 @@
           <a href="#" class="bg-blue-600 rounded-full p-2"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" class="w-5 h-5"></a>
           <a href="#" class="bg-blue-500 rounded-full p-2"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" class="w-5 h-5"></a>
           <a href="https://www.instagram.com/soonchul12" class="bg-pink-500 rounded-full p-2"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" class="w-5 h-5"></a>
-          <a href="#" class="bg-black rounded-full p-2"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" class="w-5 h-5"></a>
+          <a href="https://github.com/soonchul12" class="bg-black rounded-full p-2"><i class="fab fa-github text-white"></i></a>
         </div>
       </div>
     </div>  
