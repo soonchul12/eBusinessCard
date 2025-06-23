@@ -1,0 +1,11 @@
+{
+  "host": "soonchul.dothome.co.kr",
+  "port": 21,
+  "username": "soonchul",
+  "password": "tnscjfqlqjs12!",
+  "remotePath": "/",
+  "localPath": "./",
+  "protocol": "ftp",
+  "passive": true,
+  "debug": true
+} 

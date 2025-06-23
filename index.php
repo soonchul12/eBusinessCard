@@ -63,33 +63,33 @@
       <div class="text-gray-900 dark:text-white text-xl font-bold mb-4">Books</div>
       <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
         <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-3 flex flex-col items-center">
-          <img src="https://picsum.photos/100/150?random=1" alt="의적의 길" class="rounded shadow mb-2 w-20 h-32 object-cover">
-          <div class="text-xs text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">의적의 길</div>
+          <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=100&h=150&fit=crop" alt="모던 자바스크립트" class="rounded shadow mb-2 w-20 h-32 object-cover">
+          <div class="text-xs text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">모던 자바스크립트</div>
           <a href="#" class="text-xs text-blue-500 hover:underline">구입하기</a>
         </div>
         <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-3 flex flex-col items-center">
-          <img src="https://picsum.photos/100/150?random=2" alt="활빈당의 비밀" class="rounded shadow mb-2 w-20 h-32 object-cover">
-          <div class="text-xs text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">활빈당의 비밀</div>
+          <img src="https://images.unsplash.com/photo-1589998059171-988d887df646?w=100&h=150&fit=crop" alt="React 완벽 가이드" class="rounded shadow mb-2 w-20 h-32 object-cover">
+          <div class="text-xs text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">React 완벽 가이드</div>
           <a href="#" class="text-xs text-blue-500 hover:underline">구입하기</a>
         </div>
         <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-3 flex flex-col items-center">
-          <img src="https://picsum.photos/100/150?random=3" alt="조선을 지키다" class="rounded shadow mb-2 w-20 h-32 object-cover">
-          <div class="text-xs text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">조선을 지키다</div>
+          <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=100&h=150&fit=crop" alt="Node.js 교과서" class="rounded shadow mb-2 w-20 h-32 object-cover">
+          <div class="text-xs text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">Node.js 교과서</div>
           <a href="#" class="text-xs text-blue-500 hover:underline">구입하기</a>
         </div>
         <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-3 flex flex-col items-center">
-          <img src="https://picsum.photos/100/150?random=4" alt="홍길동전 해설" class="rounded shadow mb-2 w-20 h-32 object-cover">
-          <div class="text-xs text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">홍길동전 해설</div>
+          <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=100&h=150&fit=crop" alt="CSS 완전 정복" class="rounded shadow mb-2 w-20 h-32 object-cover">
+          <div class="text-xs text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">CSS 완전 정복</div>
           <a href="#" class="text-xs text-blue-500 hover:underline">구입하기</a>
         </div>
         <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-3 flex flex-col items-center">
-          <img src="https://picsum.photos/100/150?random=5" alt="정의의 검" class="rounded shadow mb-2 w-20 h-32 object-cover">
-          <div class="text-xs text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">정의의 검</div>
+          <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=100&h=150&fit=crop" alt="Git 완전 가이드" class="rounded shadow mb-2 w-20 h-32 object-cover">
+          <div class="text-xs text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">Git 완전 가이드</div>
           <a href="#" class="text-xs text-blue-500 hover:underline">구입하기</a>
         </div>
         <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-3 flex flex-col items-center">
-          <img src="https://picsum.photos/100/150?random=6" alt="조선의 영웅들" class="rounded shadow mb-2 w-20 h-32 object-cover">
-          <div class="text-xs text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">조선의 영웅들</div>
+          <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=100&h=150&fit=crop" alt="웹 개발의 정석" class="rounded shadow mb-2 w-20 h-32 object-cover">
+          <div class="text-xs text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">웹 개발의 정석</div>
           <a href="#" class="text-xs text-blue-500 hover:underline">구입하기</a>
         </div>
       </div>
@@ -99,44 +99,44 @@
       <div class="text-gray-900 dark:text-white text-xl font-bold mb-4">Projects</div>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
         <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 flex flex-col items-center">
-          <img src="https://picsum.photos/120/80?random=21" alt="활빈당 앱 개발" class="rounded shadow mb-2 w-28 h-20 object-cover">
-          <div class="text-sm text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">활빈당 앱 개발</div>
-          <div class="text-xs text-gray-600 dark:text-gray-300 text-center">백성을 위한 의적단 커뮤니티 앱 제작</div>
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=120&h=80&fit=crop" alt="온라인 명함 웹사이트" class="rounded shadow mb-2 w-28 h-20 object-cover">
+          <div class="text-sm text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">온라인 명함 웹사이트</div>
+          <div class="text-xs text-gray-600 dark:text-gray-300 text-center">PHP, Tailwind CSS, 반응형 디자인</div>
         </div>
         <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 flex flex-col items-center">
-          <img src="https://picsum.photos/120/80?random=22" alt="조선 지도 서비스" class="rounded shadow mb-2 w-28 h-20 object-cover">
-          <div class="text-sm text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">조선 지도 서비스</div>
-          <div class="text-xs text-gray-600 dark:text-gray-300 text-center">조선 전역의 의적 활동 지역 지도화</div>
+          <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=120&h=80&fit=crop" alt="포트폴리오 앱" class="rounded shadow mb-2 w-28 h-20 object-cover">
+          <div class="text-sm text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">포트폴리오 앱</div>
+          <div class="text-xs text-gray-600 dark:text-gray-300 text-center">React, Node.js, MongoDB</div>
         </div>
         <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 flex flex-col items-center">
-          <img src="https://picsum.photos/120/80?random=23" alt="비밀 암호 시스템" class="rounded shadow mb-2 w-28 h-20 object-cover">
-          <div class="text-sm text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">비밀 암호 시스템</div>
-          <div class="text-xs text-gray-600 dark:text-gray-300 text-center">활빈당 내부 통신용 암호 개발</div>
+          <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=120&h=80&fit=crop" alt="할일 관리 앱" class="rounded shadow mb-2 w-28 h-20 object-cover">
+          <div class="text-sm text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">할일 관리 앱</div>
+          <div class="text-xs text-gray-600 dark:text-gray-300 text-center">JavaScript, LocalStorage</div>
         </div>
         <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 flex flex-col items-center">
-          <img src="https://picsum.photos/120/80?random=24" alt="의적 연합 포털" class="rounded shadow mb-2 w-28 h-20 object-cover">
-          <div class="text-sm text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">의적 연합 포털</div>
-          <div class="text-xs text-gray-600 dark:text-gray-300 text-center">조선 내 의적단체 정보 공유 포털</div>
+          <img src="https://images.unsplash.com/photo-1592210454359-9043f067919b?w=120&h=80&fit=crop" alt="날씨 정보 앱" class="rounded shadow mb-2 w-28 h-20 object-cover">
+          <div class="text-sm text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">날씨 정보 앱</div>
+          <div class="text-xs text-gray-600 dark:text-gray-300 text-center">API 연동, CSS 애니메이션</div>
         </div>
         <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 flex flex-col items-center">
-          <img src="https://picsum.photos/120/80?random=25" alt="백성 지원 시스템" class="rounded shadow mb-2 w-28 h-20 object-cover">
-          <div class="text-sm text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">백성 지원 시스템</div>
-          <div class="text-xs text-gray-600 dark:text-gray-300 text-center">가난한 백성 지원 자동화 시스템</div>
+          <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=120&h=80&fit=crop" alt="블로그 시스템" class="rounded shadow mb-2 w-28 h-20 object-cover">
+          <div class="text-sm text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">블로그 시스템</div>
+          <div class="text-xs text-gray-600 dark:text-gray-300 text-center">PHP, MySQL, 관리자 기능</div>
         </div>
         <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 flex flex-col items-center">
-          <img src="https://picsum.photos/120/80?random=26" alt="조선 알림 서비스" class="rounded shadow mb-2 w-28 h-20 object-cover">
-          <div class="text-sm text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">조선 알림 서비스</div>
-          <div class="text-xs text-gray-600 dark:text-gray-300 text-center">중요 소식 실시간 알림 시스템</div>
+          <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=120&h=80&fit=crop" alt="쇼핑몰 웹사이트" class="rounded shadow mb-2 w-28 h-20 object-cover">
+          <div class="text-sm text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">쇼핑몰 웹사이트</div>
+          <div class="text-xs text-gray-600 dark:text-gray-300 text-center">React, Redux, 결제 시스템</div>
         </div>
         <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 flex flex-col items-center">
-          <img src="https://picsum.photos/120/80?random=27" alt="비밀 은신처 지도" class="rounded shadow mb-2 w-28 h-20 object-cover">
-          <div class="text-sm text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">비밀 은신처 지도</div>
-          <div class="text-xs text-gray-600 dark:text-gray-300 text-center">의적단 은신처 위치 정보화</div>
+          <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=120&h=80&fit=crop" alt="게임 포털" class="rounded shadow mb-2 w-28 h-20 object-cover">
+          <div class="text-sm text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">게임 포털</div>
+          <div class="text-xs text-gray-600 dark:text-gray-300 text-center">HTML5 Canvas, 게임 로직</div>
         </div>
         <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 flex flex-col items-center">
-          <img src="https://picsum.photos/120/80?random=28" alt="조선 소식지 제작" class="rounded shadow mb-2 w-28 h-20 object-cover">
-          <div class="text-sm text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">조선 소식지 제작</div>
-          <div class="text-xs text-gray-600 dark:text-gray-300 text-center">백성을 위한 소식지 발간 프로젝트</div>
+          <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=120&h=80&fit=crop" alt="소셜 미디어 앱" class="rounded shadow mb-2 w-28 h-20 object-cover">
+          <div class="text-sm text-center text-gray-900 dark:text-white font-semibold mt-2 mb-1">소셜 미디어 앱</div>
+          <div class="text-xs text-gray-600 dark:text-gray-300 text-center">Vue.js, Firebase, 실시간 채팅</div>
         </div>
       </div>
     </div>
@@ -144,22 +144,22 @@
     <div id="careers" class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-10">
       <!-- Careers -->
       <div>
-        <div class="text-gray-900 dark:text-white text-lg font-bold mb-4">Careers</div>
+        <div class="text-gray-900 dark:text-white text-lg font-bold mb-4">Experience</div>
         <div class="space-y-6">
           <div>
-            <div class="text-xs bg-blue-900 text-white rounded-full px-2 py-0.5 inline-block mb-1">1612 ~ 현재</div>
-            <div class="font-semibold text-gray-900 dark:text-white">활빈당 수장 (Head of Hwalbindang)</div>
-            <div class="text-xs text-gray-500 dark:text-gray-300">조선의 의적단체 활빈당을 이끌며 백성의 권익을 위해 활동</div>
+            <div class="text-xs bg-blue-900 text-white rounded-full px-2 py-0.5 inline-block mb-1">2024 ~ 현재</div>
+            <div class="font-semibold text-gray-900 dark:text-white">웹 개발 학습</div>
+            <div class="text-xs text-gray-500 dark:text-gray-300">HTML, CSS, JavaScript, PHP, React 등 웹 개발 기술 학습</div>
           </div>
           <div>
-            <div class="text-xs bg-blue-900 text-white rounded-full px-2 py-0.5 inline-block mb-1">1605 ~ 1612</div>
-            <div class="font-semibold text-gray-900 dark:text-white">산적 연합 리더</div>
-            <div class="text-xs text-gray-500 dark:text-gray-300">조선 각지의 산적들을 규합하여 정의로운 도적단 조직</div>
+            <div class="text-xs bg-blue-900 text-white rounded-full px-2 py-0.5 inline-block mb-1">2023 ~ 2024</div>
+            <div class="font-semibold text-gray-900 dark:text-white">프로그래밍 기초 학습</div>
+            <div class="text-xs text-gray-500 dark:text-gray-300">Python, Java 등 프로그래밍 언어 기초 학습</div>
           </div>
           <div>
-            <div class="text-xs bg-blue-900 text-white rounded-full px-2 py-0.5 inline-block mb-1">1600 ~ 1605</div>
-            <div class="font-semibold text-gray-900 dark:text-white">의적단원</div>
-            <div class="text-xs text-gray-500 dark:text-gray-300">백성의 곡식을 도적질해 가난한 이웃에게 나눔</div>
+            <div class="text-xs bg-blue-900 text-white rounded-full px-2 py-0.5 inline-block mb-1">2022 ~ 2023</div>
+            <div class="font-semibold text-gray-900 dark:text-white">컴퓨터 활용 능력</div>
+            <div class="text-xs text-gray-500 dark:text-gray-300">MS Office, 그래픽 디자인 도구 활용 능력 습득</div>
           </div>
         </div>
       </div>
@@ -168,16 +168,16 @@
         <div class="text-gray-900 dark:text-white text-lg font-bold mb-4">Education</div>
         <div class="space-y-6">
           <div>
-            <div class="font-semibold text-gray-900 dark:text-white">성균관 유학</div>
-            <div class="text-xs text-gray-500 dark:text-gray-300">조선 최고의 교육기관에서 유학 수학</div>
+            <div class="font-semibold text-gray-900 dark:text-white">고등학교 졸업</div>
+            <div class="text-xs text-gray-500 dark:text-gray-300">컴퓨터 관련 과목 집중 학습, 웹 개발 동아리 활동</div>
           </div>
           <div>
-            <div class="font-semibold text-gray-900 dark:text-white">향교 졸업</div>
-            <div class="text-xs text-gray-500 dark:text-gray-300">지방 교육기관인 향교에서 기초 학문 습득</div>
+            <div class="font-semibold text-gray-900 dark:text-white">온라인 강의 수강</div>
+            <div class="text-xs text-gray-500 dark:text-gray-300">Udemy, YouTube 등 온라인 플랫폼을 통한 프로그래밍 학습</div>
           </div>
           <div>
-            <div class="font-semibold text-gray-900 dark:text-white">서당 수학</div>
-            <div class="text-xs text-gray-500 dark:text-gray-300">어린 시절 서당에서 한학과 글공부</div>
+            <div class="font-semibold text-gray-900 dark:text-white">개인 프로젝트</div>
+            <div class="text-xs text-gray-500 dark:text-gray-300">온라인 명함, 포트폴리오 등 개인 웹사이트 제작</div>
           </div>
         </div>
       </div>

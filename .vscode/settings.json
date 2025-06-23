@@ -1,0 +1,17 @@
+{
+  "ftp-simple.configs": {
+    "dothome": {
+      "host": "soonchul.dothome.co.kr",
+      "port": 21,
+      "type": "ftp",
+      "username": "soonchul",
+      "password": "tnscjfqlqjs12!",
+      "path": "/",
+      "autosave": true,
+      "confirm": true,
+      "passive": true
+    }
+  },
+  "ftp-simple.remote-workspace": "",
+  "ftp-simple.remote-workspace-load-all": true
+} 
